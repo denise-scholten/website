@@ -1,0 +1,193 @@
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: #CF0505;
+}
+
+h2{
+    color: #CF0505;
+}
+
+
+
+/* navigatie */
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: color 250ms ease;
+}
+
+li a:hover{
+    color: #CF0505;
+    
+}
+
+
+.active{
+    color: #CF0505;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+    flex-wrap: wrap;
+    font-size: 1.4em;
+    align-items: baseline;
+}
+
+nav li:first-of-type {
+    margin-right: auto;
+} 
+
+nav li:first-of-type a {
+    color: white;
+    border: #CF0505 solid;
+    border-radius: 2em;
+    padding: 0.5em;
+    list-style-type: none;
+}   
+
+nav li:first-of-type a:hover{
+    background-color: #CF0505;
+    color: white;
+}
+
+li{ 
+    margin-right: 2em;
+}
+
+
+/* home pagina */
+
+main{
+    color:white;
+}
+
+main section{
+display: flex;
+}
+
+h1 {
+    padding: 1em
+}
+
+ .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50em;
+ }
+
+ .intro > h1 {
+    padding: 0;
+ }
+
+ .intro h1{
+    font-size: 3.5em
+ }
+   
+ .intro p{
+    font-size: 1.5em;
+ }
+ /* over ons */
+
+.overons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+article{
+    background-color:black;
+    margin:1em;
+    width: 25em;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: transform 350ms ease;
+}
+
+article:hover{
+    transform: scale(1.2);
+}
+.info{
+    margin:2em;
+}
+article img{
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+
+    /* afleveringen */
+}
+.lijstje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.lijstje li{
+    display: flex; 
+    margin-bottom: 1em; 
+    background-color: black;
+    padding-left: 1em;
+    transition: transform 350ms ease;
+  
+}
+
+
+.lijstje li:hover{
+    transform: scale(1.08);
+}
+
+.text{
+    margin: 2em;
+    width: 20em;
+}
+
+li img{
+    width: 15em;
+    height: 15em;
+}
+
+/* footer */
+footer{
+    color: white;
+    margin-top: 5em;
+
+}
+
+footer h2{
+    color: white;
+}
+
+.vijver{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-top: solid white;
+}
+
+.kikker img{
+    width: 5em;
+    height:5em;
+    margin-top: 2em;
+}
+
+.kikker h2{
+    color: white;
+}
+
+footer{
+    font-size:  0.8em;
+}
